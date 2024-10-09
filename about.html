@@ -53,11 +53,15 @@
 
         // Step one - Create a React element
 
-       const element = React.createElement("div", null, ['h1','img','content']);
+        const header = React.createElement('h1',null,user.name);
+        const bio = React.createElement('p',null,user.bio);
+
 
         // Step 2: Render the React element
 
-      ReactDOM.render('element', document.getElementById('#root')) 
+      ReactDOM.render(header, document.getElementById('h1'));
+      ReactDOM.render(bio, document.getElementById('content'));
+
 
     </script>
 
