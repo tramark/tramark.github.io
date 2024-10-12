@@ -89,3 +89,18 @@ img.dibley {
    grid-row: 5;  
    padding: 10px;
 }
+/*css for contact form*/
+
+.contact_form_div {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*css for gallery*/
+.gallery {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
