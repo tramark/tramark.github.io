@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Frazier Mark: 225</title>
+    <title>Gallery: Frazier Mark</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/starter-template/">
     <!-- Bootstrap core CSS -->
     <link href="css/styles.css" rel="stylesheet">
@@ -17,11 +17,11 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" href="#">Mark Frazier</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <a class="navbar-brand" href="#">Mark Frazier</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
                 <a class="nav-link" href="index.html">Home</a>
@@ -42,34 +42,37 @@
                 <a class="nav-link" href="gallery.html">Gallery</a>
             </li>            
         </ul>
-  </div>
+    </div>
 </nav>
+<main role="main" class="container-fluid"
+    
+<div class="gallery">
+  <a target="_blank" href="sunset.jpg">
+    <img src="images/sunset.jpg" alt="Sunset" width="600" height="400">
+  </a>
+  <div class="desc">Beautiful Sunset</div>
+</div>
 
-<main role="main" class="container-fluid">
-    <div id="h1"></div>
-    <div id="img"></div>
-    <div id="content"></div>
+<div class="gallery">
+  <a target="_blank" href="sailboat.jpg">
+    <img src="images/sailboat.jpg" alt="Sailboat" width="600" height="400">
+  </a>
+  <div class="desc">Sailboat</div>
+</div>
 
-    <script>
-        const user = {
-            name: 'Mark Frazier',
-            imageUrl: 'images/deer2.jpg',
-            bio: 'My name is Mark and I am working towards obtaining my bachelor’s degree in cybersecurity here at Champlain. I am taking this course as part of the college’s Web Programming Certificate to complete the credits I need to graduate in May 2025. I currently work as an Outside Plant Engineer for a major telecommunications company, where I have been employed for twenty-six years. I love cooking on a grill or in my smoker. I cook meats, vegetables, and desserts. I enjoy grilled food and the compliments received from family and friends.'
-        };
+<div class="gallery">
+  <a target="_blank" href="jelly_fish.jpg">
+    <img src="images/jelly_fish.jpg" alt="Jelly-Fish" width="600" height="400">
+  </a>
+  <div class="desc">Jelly-Fish</div>
+</div>
 
-        // Step one - Create a React element
-
-        const header = React.createElement('h1',null,user.name);
-        const bio = React.createElement('p',null,user.bio);
-
-
-        // Step 2: Render the React element
-
-      ReactDOM.render(header, document.getElementById('h1'));
-      ReactDOM.render(bio, document.getElementById('content'));
-
-
-    </script>
+<div class="gallery">
+  <a target="_blank" href="gull_2.jpg">
+    <img src="images/gull_2.jpg" alt="Sea Gull" width="600" height="400">
+  </a>
+  <div class="desc">Sea Gull here</div>
+</div>
 
 </main><!-- /.container -->
 
@@ -95,7 +98,9 @@
       Gallery
     </a>
 
-  </footer> 
+  </footer>
+
+     
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
